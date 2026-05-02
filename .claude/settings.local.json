@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git clone *)",
+      "Bash(pip3 install *)",
+      "Bash(python3 *)",
+      "Bash(pip install *)",
+      "Bash(C:/Users/Administrator/AppData/Local/Programs/Python/Python312/python.exe *)",
+      "Bash(set PYTHONIOENCODING=utf-8)",
+      "Bash(\"C:/Users/Administrator/AppData/Local/Programs/Python/Python312/python.exe\" \"E:/project/bmad-start/xiaohu-wechat-format/scripts/format.py\" --input \"E:/project/bmad-start/CLAUDE.md\" --gallery --recommend newspaper magazine ink)",
+      "Bash(chcp 65001)",
+      "Bash(PYTHONIOENCODING=utf-8 C:/Users/Administrator/AppData/Local/Programs/Python/Python312/python.exe *)",
+      "Read(//e/tmp/wechat-format/**)",
+      "Read(//c/tmp/**)",
+      "Bash(claude mcp *)"
+    ]
+  }
+}
