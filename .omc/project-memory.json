@@ -98,6 +98,55 @@
       ]
     }
   },
-  "hotPaths": [],
+  "hotPaths": [
+    {
+      "path": "_bmad\\_config\\bmad-help.csv",
+      "accessCount": 1,
+      "lastAccessed": 1778982960543,
+      "type": "file"
+    },
+    {
+      "path": "_bmad\\gds\\module-help.csv",
+      "accessCount": 1,
+      "lastAccessed": 1778982978692,
+      "type": "file"
+    },
+    {
+      "path": "_bmad\\bmb\\module-help.csv",
+      "accessCount": 1,
+      "lastAccessed": 1778982979131,
+      "type": "file"
+    },
+    {
+      "path": "_bmad\\core\\module-help.csv",
+      "accessCount": 1,
+      "lastAccessed": 1778982979837,
+      "type": "file"
+    },
+    {
+      "path": "_bmad\\tea\\module-help.csv",
+      "accessCount": 1,
+      "lastAccessed": 1778982996735,
+      "type": "file"
+    },
+    {
+      "path": "_bmad\\cis\\module-help.csv",
+      "accessCount": 1,
+      "lastAccessed": 1778982996888,
+      "type": "file"
+    },
+    {
+      "path": "_bmad\\bmm\\module-help.csv",
+      "accessCount": 1,
+      "lastAccessed": 1778982998087,
+      "type": "file"
+    },
+    {
+      "path": "README-skills.md",
+      "accessCount": 1,
+      "lastAccessed": 1778983081556,
+      "type": "file"
+    }
+  ],
   "userDirectives": []
 }
