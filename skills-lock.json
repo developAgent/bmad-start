@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "skills": {
+    "pinme": {
+      "source": "glitternetwork/pinme",
+      "sourceType": "github",
+      "skillPath": "skills/pinme/SKILL.md",
+      "computedHash": "91786a5425e4b5158012d30ba30c79848a63f44dc43624d5d8a5490b4042c3d4"
+    },
+    "pinme-auth": {
+      "source": "glitternetwork/pinme",
+      "sourceType": "github",
+      "skillPath": "skills/pinme-auth/SKILL.md",
+      "computedHash": "289e1258fccb4b7d5d526a1ad00817bcaa8c9c67866ab7264331977baef27c12"
+    },
+    "pinme-email": {
+      "source": "glitternetwork/pinme",
+      "sourceType": "github",
+      "skillPath": "skills/pinme-email/SKILL.md",
+      "computedHash": "153a2f093dcc0972c87fe63709c24b03bb586736992ba4ca3eafca419ee2efdf"
+    },
+    "pinme-llm": {
+      "source": "glitternetwork/pinme",
+      "sourceType": "github",
+      "skillPath": "skills/pinme-llm/SKILL.md",
+      "computedHash": "898761a3da22cd0346f45ba69f0a422b5723cbd527bf6e107e9d494e471e9645"
+    },
+    "pinme-share": {
+      "source": "glitternetwork/pinme",
+      "sourceType": "github",
+      "skillPath": "skills/pinme-share/SKILL.md",
+      "computedHash": "8bccd7dfba97a76bc897ada0a50ca414dbe1e4d3763f4f339735cfe02b607259"
+    }
+  }
+}

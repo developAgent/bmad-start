@@ -1,0 +1,103 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1778980984666,
+  "projectRoot": "E:\\project\\bmad-start",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "docs"
+    ],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "docs": {
+      "path": "docs",
+      "purpose": "Documentation",
+      "fileCount": 0,
+      "lastAccessed": 1778980984616,
+      "keyFiles": []
+    },
+    "skills": {
+      "path": "skills",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1778980984618,
+      "keyFiles": []
+    },
+    "xiaohu-wechat-format": {
+      "path": "xiaohu-wechat-format",
+      "purpose": null,
+      "fileCount": 6,
+      "lastAccessed": 1778980984619,
+      "keyFiles": [
+        "config.example.json",
+        "config.json",
+        "README.md",
+        "README_CN.md",
+        "SKILL.md"
+      ]
+    },
+    "_bmad": {
+      "path": "_bmad",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1778980984620,
+      "keyFiles": []
+    },
+    "_bmad-output": {
+      "path": "_bmad-output",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1778980984620,
+      "keyFiles": []
+    },
+    "xiaohu-wechat-format\\docs": {
+      "path": "xiaohu-wechat-format\\docs",
+      "purpose": "Documentation",
+      "fileCount": 3,
+      "lastAccessed": 1778980984622,
+      "keyFiles": [
+        "gallery-bytedance.png",
+        "gallery-newspaper.png",
+        "gallery-preview.png"
+      ]
+    },
+    "xiaohu-wechat-format\\scripts": {
+      "path": "xiaohu-wechat-format\\scripts",
+      "purpose": "Build/utility scripts",
+      "fileCount": 4,
+      "lastAccessed": 1778980984623,
+      "keyFiles": [
+        "comment_reply.py",
+        "format.py",
+        "generate.py"
+      ]
+    }
+  },
+  "hotPaths": [],
+  "userDirectives": []
+}
