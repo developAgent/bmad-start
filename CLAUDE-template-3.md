@@ -6,27 +6,42 @@
 
 ## Project Overview
 
-- Name: my-claude-code-setup
-- Description: Template repository providing CLAUDE.md templates, memory bank system, hooks, skills, subagents, and MCP server configurations for Claude Code projects
-- This is a template repo — no application code. Users fork/copy files to their own projects.
+<!-- Fill in:
+- Name: [PROJECT_NAME]
+- Stack: [e.g., Next.js 15, Tailwind, Prisma]
+- Description: [What it does]
+- Entry: [e.g., src/app/page.tsx]
+-->
 
-## CLAUDE.md Templates
+## Build, Test & Verify
 
-This repo provides 3 CLAUDE.md templates following official Anthropic best practices:
+<!-- The #1 way to improve Claude's output: give it verification commands.
+- Install: `bun install`
+- Dev: `bun dev`
+- Build: `bun run build`
+- Test: `bun test`
+- Lint: `bun run lint`
+- Type check: `bunx tsc --noEmit`
+-->
 
-| Template | Lines | Philosophy |
-|----------|-------|------------|
-| `CLAUDE-template-1.md` | ~101 | Compact self-contained + memory resilience |
-| `CLAUDE-template-2.md` | ~153 | Memory bank headline + dual memory |
-| `CLAUDE-template-3.md` | ~105 | Progressive disclosure native (this file's format) |
+## Code Style
 
-For migrating an existing CLAUDE.md to a new template, see `CLAUDE-migrate-to-new-template.md`.
+<!-- Only what differs from defaults:
+- 2-space indentation
+- ES modules, named exports
+-->
+
+## Architecture
+
+<!-- Key directories:
+- src/api/ — route handlers
+- src/lib/ — shared utilities
+- src/components/ — UI components
+-->
 
 ## Tools
 
 Use `rg` not grep, `fd` not find. `tree` is not installed.
-
-* Ignore GEMINI.md and GEMINI-*.md files
 
 ## Rules Dependency
 
@@ -69,10 +84,6 @@ After significant work: update CLAUDE-*.md files, then sync key content to auto 
 
 If CLAUDE.md is ever reset or wiped, auto memory retains project knowledge — check `/memory` to recover context.
 
-### Backups
-
-When asked to backup, copy CLAUDE.md, CLAUDE-*.md files, and `.claude/` settings to the specified backup directory.
-
 ---
 
 ## Context Layers
@@ -92,7 +103,3 @@ When asked to backup, copy CLAUDE.md, CLAUDE-*.md files, and `.claude/` settings
 <!-- To share rules across projects: ln -s ~/shared-rules .claude/rules/shared -->
 
 Use `/memory` to inspect loaded files. Root CLAUDE.md survives `/compact`.
-
-## Claude Code Official Documentation
-
-When working on Claude Code features (hooks, skills, subagents, MCP servers), use the `claude-code-guide` subagent (natively built into Claude Code) for questions about Claude Code CLI features, hooks, slash commands, MCP servers, settings, IDE integrations, Claude Agent SDK, and Claude API usage.
